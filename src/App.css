@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  margin: 0;
+  padding: 10px;
+}
+
+.main {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.search-form {
+  width: 100%;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+ input,
+ button {
+  width: 280px;
+}
+
+ input,
+ button {
+  padding: 10px;
+  border-radius: 4px;
+}
+
+ input {
+  border: 1px solid grey;
+  outline: none;
+}
+
+ button {
+  margin-left: 10px;
+  background-color: red;
+  border: 1px solid chartreuse;
+}
+button:hover{
+  background-color: chartreuse;
+}
+.user {
+  height: 100px;
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: lightblue;
+}
